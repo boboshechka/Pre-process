@@ -1,0 +1,19 @@
+.social {
+    display: flex;
+    justify-content: center;
+    padding-inline-start: 0;
+    list-style-type: none;
+
+    @include
+    breakpoint($tablet-bp) {
+        display: none;
+    }
+}
+
+.social__item {
+    margin: 15px;
+
+    &--modal {
+        margin: 0 10px;
+    }
+}
